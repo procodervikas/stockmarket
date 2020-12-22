@@ -1,6 +1,10 @@
 export interface CardBlock {
-    order_type : string;
-    atr_value : number;
-    entry_price : number;
-    calculated_price : number;
+    name:string;
+    roll_no:number;
+    branch:string;
+    passout:boolean;
+    // order_type:string;
+    // atr_value:number;
+    // entry_price:number;
+    // calculated_price:number;
 }
