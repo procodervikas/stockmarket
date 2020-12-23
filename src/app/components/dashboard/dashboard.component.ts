@@ -17,30 +17,12 @@ export class DashboardComponent implements OnInit {
 
   addCard() {
     this.datablocks.push({
-      name: "vikas kumar",
-      roll_no: 1726527,
-      branch: "IT",
-      passout: true
-    })
+      order_type:'Long',
+      atr_value: 45,
+      entry_price: 45000 ,
+      calculated_price: 47000
+    });
   }
-  // this.CardBlock.push({
-  // blockHash: Math.random()
-  //   .toString(36)
-  //   .substring(2),
-  // CardBlock : this.CardBlock.length + 1,
-  // previousBlock: "0000",
-  // // title:"IBM",
-  // market_cap: "112.14B" 
-  // transactions: [
-  //   {
-  //     sender: "sender",
-  //     recipient: "recipient",
-  //     amount: 1,
-  //     fee: 200
-  //   }
-  // ]
-  //   });
-  // }
 
   clearCards() {
     this.datablocks.length - 1;

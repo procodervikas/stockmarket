@@ -1,0 +1,16 @@
+.blocksWrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: blue;
+    padding: 20px 0;
+    margin: 10px 0 0 0;
+    min-height: 305px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
